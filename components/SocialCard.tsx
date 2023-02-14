@@ -1,5 +1,4 @@
 import { cardData } from "@/interface";
-import styles from "@/styles";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -11,7 +10,7 @@ const SocialCard = ({ title, href, image }: cardData) => {
         width={40}
         height={40}
         alt={title}
-        className={styles.socialImage}
+        className="m-3 mt-4"
       />
     </Link>
   );
