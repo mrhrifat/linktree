@@ -32,18 +32,6 @@ export interface metadata {
   icons: object;
 }
 
-export interface styles {
-  homepageDiv: string;
-  homepageImage: string;
-  homepageH1: string;
-  homepageFooterDiv: string;
-  linkcardA: string;
-  linkcardDiv: string;
-  linkcardDivDiv: string;
-  linkcardDivH2: string;
-  socialImage: string;
-}
-
 export interface images {
   className: string;
   image: string;
